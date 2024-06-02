@@ -1,0 +1,95 @@
+{
+    "OBSERVABILITY_MAP": {
+        "TOP": {
+            "adaptor": {
+                "data_in": [
+                    31,
+                    0
+                ],
+                "req_valid": [
+                    32,
+                    32
+                ],
+                "req_state": [
+                    34,
+                    33
+                ],
+                "rsp_state": [
+                    36,
+                    35
+                ]
+            },
+            "controller": {
+                "key_en": [
+                    37,
+                    37
+                ]
+            },
+            "agent": {
+                "access_en": [
+                    38,
+                    38
+                ]
+            },
+            "rd_ready": [
+                39,
+                39
+            ]
+        }
+    },
+    "CONTROLLABILITY_MAP": {
+        "TOP": {
+            "adaptor": {
+                "clk": [
+                    0,
+                    0
+                ],
+                "rst": [
+                    1,
+                    1
+                ],
+                "data_out": [
+                    33,
+                    2
+                ]
+            },
+            "controller": {
+                "clk": [
+                    34,
+                    34
+                ],
+                "rst": [
+                    35,
+                    35
+                ]
+            },
+            "agent": {
+                "access_en": [
+                    36,
+                    36
+                ]
+            },
+            "rd_ready": [
+                37,
+                37
+            ]
+        }
+    },
+    "CONTROL_TYPE_MAP": {
+        "TOP": {
+            "adaptor": {
+                "clk": "clock",
+                "rst": "signal",
+                "data_out": "signal"
+            },
+            "controller": {
+                "clk": "clock",
+                "rst": "signal"
+            },
+            "agent": {
+                "access_en": "signal"
+            },
+            "rd_ready": "signal"
+        }
+    }
+}

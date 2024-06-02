@@ -1,0 +1,3 @@
+t0 {
+(TOP.controller.key_en[0:0] == 1'b1)
+}

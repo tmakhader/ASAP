@@ -1,0 +1,4 @@
+t0 {
+(TOP.adaptor.rsp_state[1:0] == 2'b11)
+(TOP.adaptor.rsp_state[1:0] == 2'b00)
+}

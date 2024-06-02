@@ -1,0 +1,7 @@
+t0 {
+(TOP.adaptor.req_state[1:0] == 2'b11)
+(TOP.adaptor.req_state[1:0] == 2'b00)
+}
+t1 {
+ (TOP.rd_ready[0:0] == 1'b1) 
+}

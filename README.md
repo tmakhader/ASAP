@@ -1,6 +1,6 @@
 # Automated Scalable And Programmable Framework For Post-Silicon Security Remediation
 
-## Dependencies - 🎨 ASCII GUI with Tkinter & PyFiglet
+## Dependencies - 🎨 ASCII GUI with Tkinter & PyFiglet, Verilog parser with PyVerilog And Lexical Analyzer using ply
 
 ---
 
@@ -37,6 +37,15 @@ Follow these steps in your terminal:
 
    ```bash
    pip3 install pyfiglet
+4. **Install pyverilog**:
+
+   ```bash
+   pip3 install pyverilog
+   
+5. **Install ply**:
+
+   ```bash
+   pip3 install ply
 
 ## Running ASAP tool
 To run the tool run

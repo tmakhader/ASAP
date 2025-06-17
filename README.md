@@ -5,28 +5,36 @@
 
 ---
 
-### 🛠 Requirements
+### 💻 Installation (macOS & Linux)
 
-- Python 3.6+
-- `tkinter` (standard GUI library)
-- `pyfiglet` (ASCII art rendering)
+Follow these steps in your terminal:
 
----
+1. **Install Python** (if not already installed):
 
-### 💻 Installation
+   - macOS:
+     ```bash
+     brew install python
+     ```
 
-#### For macOS
+   - Linux (Ubuntu/Debian):
+     ```bash
+     sudo apt update
+     sudo apt install python3 python3-pip
+     ```
 
-```bash
-# Install Python (if not already installed)
-brew install python
+2. **Install tkinter** (GUI library):
 
-# Install tkinter (if needed)
-brew install python-tk
+   - macOS (Homebrew Python only):
+     ```bash
+     brew install python-tk
+     ```
 
-# Install pyfiglet
-pip3 install pyfiglet
+   - Linux:
+     ```bash
+     sudo apt install python3-tk
+     ```
 
-src/ -- Contains all relevant sources for the framework. The framework supports GUI mode. To run the tool, 
-        run:
- * python3 
+3. **Install pyfiglet**:
+
+   ```bash
+   pip3 install pyfiglet

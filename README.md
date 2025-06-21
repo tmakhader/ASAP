@@ -1,4 +1,4 @@
-# 🛡️ Automated Scalable And Programmable Framework For Post-Silicon Security Remediation
+# 🛡️ "Automated Scalable And Programmable Framework For Post-Silicon Security Remediation"
 
 ## 📦 Dependencies
 
